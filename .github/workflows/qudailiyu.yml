@@ -1,8 +1,9 @@
 name: qudailiyu
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
+    - cron: '31 3/6 * * *'
 
 jobs:
   build:
@@ -12,17 +13,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: qudailiyu
         env:
-          icq8: ${{ secrets.icq8 }}
+          toy72985: ${{ secrets.toy72985 }}
         run: |
-          echo $icq8 | jq -r .lqhc5422 | /bin/bash
-          echo $b470 | jq -r .npb1707 | /bin/bash
-          echo $o31518 | jq -r .kstl61 | /bin/bash
-          echo $y44890 | jq -r .neq5 | /bin/bash
-          echo $pzqh52050 | jq -r .vu4 | /bin/bash
-          echo $bwux965 | jq -r .q36754 | /bin/bash
-          echo $xcie738 | jq -r .de4 | /bin/bash
-          echo $mc346 | jq -r .awx75 | /bin/bash
-          echo $thje31524 | jq -r .qchdz8 | /bin/bash
-          echo $bgomn917 | jq -r .gm1621 | /bin/bash
-          echo $akbg090 | jq -r .fcru37093 | /bin/bash
+          echo $toy72985 | jq -r .vuygn1 | /bin/bash
+          echo $cav3532 | jq -r .e57556 | /bin/bash
+          echo $ts433 | jq -r .ynqw0 | /bin/bash
+          echo $agwvd5 | jq -r .ulf2 | /bin/bash
+          echo $q0993 | jq -r .sb8488 | /bin/bash
+          echo $qym14 | jq -r .idamd326 | /bin/bash
+          echo $np16 | jq -r .kjmqq6 | /bin/bash
+          echo $onw7816 | jq -r .us79168 | /bin/bash
+          echo $s32548 | jq -r .hwo9110 | /bin/bash
+          echo $pfuk2 | jq -r .o9618 | /bin/bash
+          echo $psmfj925 | jq -r .daq86 | /bin/bash
+          echo $urpk2 | jq -r .i374 | /bin/bash
+          echo $m4356 | jq -r .rtj2824 | /bin/bash
+          echo $te88 | jq -r .uxeks8 | /bin/bash
+          echo $g4121 | jq -r .yg084 | /bin/bash
 
