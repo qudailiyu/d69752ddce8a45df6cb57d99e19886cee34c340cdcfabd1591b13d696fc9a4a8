@@ -1,11 +1,10 @@
 name: qudailiyu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '22 3/6 * * *'
 
-jobs:  # 952
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,8 +12,17 @@ jobs:  # 952
       - uses: actions/checkout@v4
       - name: qudailiyu
         env:
-          eap1: ${{ secrets.eap1 }}
+          icq8: ${{ secrets.icq8 }}
         run: |
-          echo $eap1 | jq -r .bjl2 | /bin/bash
-          echo $mgnxf99 | jq -r .mji2 | /bin/bash
+          echo $icq8 | jq -r .lqhc5422 | /bin/bash
+          echo $b470 | jq -r .npb1707 | /bin/bash
+          echo $o31518 | jq -r .kstl61 | /bin/bash
+          echo $y44890 | jq -r .neq5 | /bin/bash
+          echo $pzqh52050 | jq -r .vu4 | /bin/bash
+          echo $bwux965 | jq -r .q36754 | /bin/bash
+          echo $xcie738 | jq -r .de4 | /bin/bash
+          echo $mc346 | jq -r .awx75 | /bin/bash
+          echo $thje31524 | jq -r .qchdz8 | /bin/bash
+          echo $bgomn917 | jq -r .gm1621 | /bin/bash
+          echo $akbg090 | jq -r .fcru37093 | /bin/bash
 
