@@ -3,20 +3,24 @@ name: qudailiyu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
+    - cron: '11 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qudailiyu
         env:
-          dae58: ${{ secrets.dae58 }}
+          wb5: ${{ secrets.wb5 }}
         run: |
-          echo $dae58 | jq -r .xw729 | /bin/bash
-          echo $m45174 | jq -r .eod06134 | /bin/bash
-          echo $kzocl28 | jq -r .bu597 | /bin/bash
-          echo $w1896 | jq -r .yfocq11470 | /bin/bash
-          echo $da8415 | jq -r .lt62 | /bin/bash
-          echo $wy562 | jq -r .b750 | /bin/bash
+          echo $wb5 | jq -r .lwxt59 | /bin/bash
+          echo $zb2 | jq -r .tu0 | /bin/bash
+          echo $ua52957 | jq -r .rufkx4463 | /bin/bash
+          echo $ubiwl3 | jq -r .fuctd10259 | /bin/bash
+          echo $ou9 | jq -r .ah1 | /bin/bash
+          echo $jl29 | jq -r .df6 | /bin/bash
+          echo $bvp75687 | jq -r .ijbv95 | /bin/bash
+          echo $grvv032 | jq -r .btoe4 | /bin/bash
+          echo $hj74248 | jq -r .kyhq375 | /bin/bash
 
